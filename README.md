@@ -10,3 +10,4 @@ Recipe Search and Retrieval: Find recipes based on ingredients, cuisine, dietary
 Nutritional Analysis: Get detailed information on calories, macronutrients, and dietary labels for each recipe.
 Dietary Filters: Support for vegetarian diets and health restrictions.
 Ingredient Parsing: Match recipes efficiently using user-input ingredients.
+

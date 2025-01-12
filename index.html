@@ -1,13 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder</title>
+</head>
+<body style="background-color: aqua;">
+  <h1 style="text-align: left; font-family: cursive; font-size:50px;">Recipe Finder</h1>
+
+  <input style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 300px;" 
+         id="search" 
+         placeholder="Search for a recipe">
+
+  <button style="background-color: grey; padding: 10px 20px; font-size: 16px; border: none; color: white; border-radius: 4px;" 
+          id="searchBtn">
+    Search
+  </button>
+<br>
+<br>
+<br>
+  <div class="recipe-result" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;">
+    <div id="recipe">
+      <img src="src/Logo.jpg" alt="demo-img" style="width: 100%; height: auto;">
+      <div class="flex-container">
+        <h1 id="title">Recipe title</h1>
+        <p>Ingedients list</p>
+        <p>Preparation instructions</p>
+      </div>
+      <img src="src/Logo.jpg" alt="demo-img" style="width: 100%; height: auto;">
+      <div class="flex-container">
+        <h1 id="title">Recipe title</h1>
+        <p>Ingedients list</p>
+        <p>Preparation instructions</p>
+      </div>
+      <img src="src/Logo.jpg" alt="demo-img" style="width: 100%; height: auto;">
+      <div class="flex-container">
+        <h1 id="title">Recipe title</h1>
+        <p>Ingedients list</p>
+        <p>Preparation instructions</p>
+      </div> 
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
